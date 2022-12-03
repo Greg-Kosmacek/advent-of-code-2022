@@ -18,4 +18,5 @@ const b = {
   7: 3,
   8: 2,
 };
+// Security by obfuscation
 console.log(a.reduce((c, d) => (c += b[d[1]] + b[b[d[1]] - b[d[0]] + 3]), 0));
