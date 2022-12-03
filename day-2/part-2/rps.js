@@ -34,6 +34,7 @@ const rounds = input.split("\n").map((round) => round.split(" "));
  * -1, 4, 0 = s
  * 2, -2, 3 = r
  *
+ *        🐱
  * p r s s p r r s p
  *
  * 2 1 3 3 2 1 1 3 2
